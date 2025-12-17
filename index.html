@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- link the CSS file -->
+    <link rel="stylesheet" href="style.css" />
+    <title>MARVEL</title>
+  </head>
+  <body>
+    <!-- children of the body element -->
+    <div class="row black">
+      <div class="character center-content">
+        <img src="images/Marvel1.gif" id="changingimage" />
+      </div>
+      <div class="bio black center-content">
+        <h4 id="changingbio">Choose your character</h4>
+      </div>
+    </div>
+    <div class="row1 black">
+      <div class="box center-content" id="parent1">
+        <img
+          src="images/spiderman109.png"
+          onclick="spiderMan()"
+          id="1"
+          class="clickable1"
+        />
+      </div>
+      <div class="box center-content" id="parent2">
+        <img
+          src="images/HulkGrey.png"
+          onclick="hulk()"
+          id="2"
+          class="clickable1"
+        />
+      </div>
+      <div class="box center-content" id="parent3">
+        <img
+          src="images/ThorComic.png"
+          onclick="thor()"
+          id="3"
+          class="clickable1"
+        />
+      </div>
+    </div>
+    <div class="row1 black">
+      <div class="box center-content" id="parent4">
+        <img
+          src="images/ironman100.png"
+          onclick="ironman()"
+          id="4"
+          class="clickable1"
+        />
+      </div>
+      <div class="box center-content" id="parent5">
+        <img src="images/bp100.png" onclick="b()" id="5" class="clickable1" />
+      </div>
+      <div class="box center-content" id="parent6">
+        <img
+          src="images/Hawkeye comic.png"
+          onclick="hawkeye()"
+          id="6"
+          class="clickable1"
+        />
+      </div>
+    </div>
+    <div class="row1 black">
+      <div class="box center-content" id="parent7">
+        <img
+          src="images/captain100.png"
+          onclick="captainamerica()"
+          id="7"
+          class="clickable1"
+        />
+      </div>
+      <div class="box center-content" id="parent8">
+        <img
+          src="images/bw100.png"
+          onclick="widow()"
+          id="8"
+          class="clickable1"
+        />
+      </div>
+      <div class="box center-content" id="parent9">
+        <img
+          src="images/ds100.png"
+          onclick="strange()"
+          id="9"
+          class="clickable1"
+        />
+      </div>
+    </div>
+    <audio src="sounds/click.wav" id="my_click"></audio>
+    <script src="script.js"></script>
+  </body>
+</html>
